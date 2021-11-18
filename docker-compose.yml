@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  cc1:
+    image: ${DOCKER_REGISTRY-}cc1
+    build:
+      context: .
+      dockerfile: CC1/Dockerfile
