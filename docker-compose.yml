@@ -6,3 +6,6 @@ services:
     build:
       context: .
       dockerfile: CC1/Dockerfile
+
+    ports:
+        - "4200:80"
